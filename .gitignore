@@ -1,0 +1,10 @@
+.signing/
+build/
+output/
+local.properties
+.env*
+*.p12
+*.jks
+*.keystore
+password.txt
+node_modules/
