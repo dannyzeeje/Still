@@ -1,0 +1,30 @@
+{
+  "passed": 24,
+  "checks": [
+    "Four bottom tabs exclude Settings",
+    "Bottom gradient is decorative and behind navigation",
+    "Task expands in place without editor",
+    "Details, notes and nested checkbox steps are visible",
+    "Inline nested subtask tick persists without completing parent task",
+    "Inline checkbox unticks",
+    "Failed subtask save rolls back",
+    "Second task tap collapses details",
+    "Dedicated edit button opens editor with original data",
+    "Today priority sort is high first with stable ties",
+    "Sorting never changes manual task order",
+    "Toggling sort off restores original order",
+    "Calendar starts in time order",
+    "Calendar priority sort preserves chronological ties",
+    "Settings shortcut opens the settings screen",
+    "All tasks has its own priority sort",
+    "Subtask checkbox works inside All tasks and retains focus",
+    "Board cards expand too; empty tasks retain a clear state",
+    "Holding a subtask checkbox never lifts its parent card",
+    "Native top and bottom insets reach CSS",
+    "Insets reject negative space",
+    "Sort preferences and subtasks survive reload",
+    "Legacy sort migration keeps only boolean preferences",
+    "No JavaScript errors"
+  ],
+  "scope": "JSDOM and simulated native inset bridge. Android navigation-bar blending and real touch need phone validation."
+}

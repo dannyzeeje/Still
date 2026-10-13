@@ -1,0 +1,24 @@
+{
+  "passed": 18,
+  "checks": [
+    "Zoom preserves screen, navigation and board DOM",
+    "Zoom runs only one stage animation",
+    "Rapid zoom cancels prior animation and lands in correct mode",
+    "Zoom in restores scroll immediately",
+    "Overview drag crosses rows and persists list order",
+    "Unsorted stays first and task order is unchanged",
+    "Drop keeps overview open and removes drag layers",
+    "Cancelling overview drag restores order",
+    "Failed save restores overview and saved list order",
+    "Swipe before hold remains scrolling",
+    "Reduced motion skips zoom animation",
+    "Background pause sync refreshes Focus controls",
+    "Background stop clears timer without extra focus session",
+    "Old native revision cannot overwrite newer UI state",
+    "Native save conflict adopts canonical timer state",
+    "Timer update preserves unrelated editor drafts",
+    "Backup import clears timer while retaining current native revision",
+    "No JavaScript errors"
+  ],
+  "scope": "JSDOM geometry and animation simulation; Android/SystemUI presentation needs device testing."
+}

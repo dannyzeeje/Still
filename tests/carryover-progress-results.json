@@ -1,0 +1,21 @@
+{
+  "passed": 16,
+  "checks": [
+    "Past deadlines move to today with high priority",
+    "Completed, archived, future and undated tasks remain unchanged",
+    "Same-day processing is idempotent",
+    "Repeated carryover retains original deadline",
+    "Today renders overdue badge and nested 1/2 progress",
+    "Inline completion updates counter and saves subtasks",
+    "Board card has the same progress and overdue indicators",
+    "Completed tasks no longer show overdue",
+    "Creation date bounds availability even with backdated start",
+    "Habit week marks previous days unavailable",
+    "Habit history marks previous days unavailable",
+    "New habit streak starts at one",
+    "Recurring schedules retain original anchor",
+    "Next recurrence has fresh overdue state",
+    "Saved state survives restart and keeps original deadline",
+    "No runtime errors"
+  ]
+}

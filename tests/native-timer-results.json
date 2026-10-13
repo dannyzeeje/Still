@@ -1,0 +1,26 @@
+{
+  "checks": [
+    "Pause preserves remaining seconds with ceiling",
+    "Repeated stale pause is ignored",
+    "Resume sets a new deadline without losing time",
+    "Old notification cannot stop resumed timer",
+    "Wrong timer token is ignored",
+    "Stale web snapshot adopts native timer",
+    "Native timer merge preserves unrelated web edits",
+    "Current web revision can change timer",
+    "Expanded island uses countdown and two action buttons",
+    "Expanded and compact countdown share deadline",
+    "Island payload meets Xiaomi 3072-byte limit",
+    "Unsupported devices retain ordinary notification fallback",
+    "Control pause keeps expanded panel open",
+    "Violet dark-mode timer accent supplied",
+    "Paused island shows frozen time",
+    "Stop removes timer and preserves tasks",
+    "Stale web save cannot resurrect a stopped timer",
+    "Controls after stop are harmless",
+    "Expired timer cannot be paused",
+    "Long timers keep hours in display"
+  ],
+  "scope": "JVM tests of actual native state transitions and Xiaomi payload; SystemUI/device delivery remains untested.",
+  "passed": 20
+}

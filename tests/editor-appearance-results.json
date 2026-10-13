@@ -1,0 +1,25 @@
+{
+  "passed": 19,
+  "checks": [
+    "Legacy notes combine into editable Details without touching stored data",
+    "Cancel and reopen do not duplicate legacy notes",
+    "Subtask entry is a compact focused modal",
+    "New subtask returns to editor with one remove control and no extra plus",
+    "Custom repeat shows interval and hides weekday controls",
+    "Repeat summary explains the chosen interval",
+    "Weekday repeat shows only relevant controls",
+    "Saving weekday recurrence requires a selected day",
+    "Unified details files subtasks repeat and estimate survive save",
+    "No repeat hides scheduling controls",
+    "Appearance only shows six choices for the active theme",
+    "All twelve palette selections apply and persist",
+    "Each theme colour changes backgrounds and surfaces as well as accents",
+    "Switching themes restores each independent accent",
+    "Failed accent save retains prior preference and appearance",
+    "Unknown preferences fall back to current theme defaults",
+    "System dark mode refreshes the visible colour choices",
+    "System light mode refreshes the visible colour choices",
+    "No JavaScript errors"
+  ],
+  "scope": "JSDOM interaction and persistence checks. Physical phone layout and native launch rendering unverified."
+}

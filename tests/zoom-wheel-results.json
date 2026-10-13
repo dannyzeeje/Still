@@ -1,0 +1,25 @@
+{
+  "passed": 19,
+  "checks": [
+    "Wheels start in middle copy with neighbours above zero",
+    "Minute wheel wraps 00 to 59",
+    "Minute wheel wraps 59 to 00",
+    "Hour wheel wraps 00 to 23",
+    "Hour wheel wraps 23 to 00",
+    "Recentering preserves selected value",
+    "Wheel recenters before its physical bottom",
+    "Wheel recenters before its physical top",
+    "Zero duration still rejected",
+    "Wrapped wheels save maximum duration correctly",
+    "Zoom out shows all list previews and hides full columns",
+    "Same button restores full board and previous scroll",
+    "Overview tap zooms into selected list",
+    "Zoom never changes list/task order",
+    "Toggle also returns to vertical list view",
+    "Opening a board starts at regular size",
+    "Navigation triggers motion",
+    "Reduced motion suppresses scripted animations",
+    "No JavaScript errors"
+  ],
+  "scope": "JSDOM simulated scrolling and animation API. Real iOS-like momentum and Android visuals require phone validation."
+}

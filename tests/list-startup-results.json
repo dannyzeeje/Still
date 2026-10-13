@@ -1,0 +1,29 @@
+{
+  "passed": 23,
+  "checks": [
+    "Cold start signals readiness once and removes startup class",
+    "Readiness cannot replay the startup screen",
+    "First Home appearance has no entrance motion",
+    "Returning from Recents preserves existing Home content",
+    "Unchanged theme is not reapplied to Android",
+    "Tab navigation keeps screen and dock nodes",
+    "Navigation highlight moves to selected tab",
+    "Page animation fades without bounce or scale",
+    "Tapping active tab does not rebuild or replay motion",
+    "Reduced motion suppresses page transition",
+    "Three dot list control replaces inline ordering controls",
+    "List menu is a dialog with edit duplicate delete",
+    "Duplicate appears immediately after original and persists",
+    "Visible task order and completion state are copied",
+    "Nested content has independent identifiers",
+    "Details files and recurrence links copy safely",
+    "Editing duplicate does not affect original",
+    "Repeated copies get unique names",
+    "Failed duplication rolls back tasks and list",
+    "Dialog rename preserves task membership",
+    "Deleting a copied list removes its tasks",
+    "UI text selection disabled while fields remain selectable",
+    "No JavaScript errors"
+  ],
+  "scope": "JSDOM browser/lifecycle mocks; native startup compiles but cold/warm device presentation is untested."
+}

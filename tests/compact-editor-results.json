@@ -1,0 +1,21 @@
+{
+  "passed": 15,
+  "checks": [
+    "List dialog originates next to its own menu button",
+    "Confirmation clears menu anchor and uses centred modal",
+    "Cancelling confirmation returns to anchored menu",
+    "Add task begins as a pill with a hidden form",
+    "Pill opens existing form with close control and focus",
+    "Rapid Add submits create exactly one task",
+    "Adding does not recreate board, form or navigation",
+    "Card and list count update in place",
+    "Failed Add keeps draft and removes unsaved task",
+    "Close restores pill and preserves unfinished input",
+    "Reopening allows another task in the correct list",
+    "Optional task sections start collapsed without hiding their summaries",
+    "Core actions share one compact row",
+    "Saving collapsed editor retains optional fields",
+    "No JavaScript errors"
+  ],
+  "scope": "JSDOM interaction/layout mocks. Native startup/icon and exact phone fit need device validation."
+}

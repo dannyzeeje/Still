@@ -1,0 +1,18 @@
+{
+  "passed": 12,
+  "checks": [
+    "Confirmation describes permanent task deletion",
+    "Cancel preserves list and every task",
+    "Failed save restores list, tasks, embedded content and timer",
+    "Failed save leaves confirmation available for retry",
+    "Deletion removes open completed and archived tasks",
+    "Unsorted, neighbouring lists and other boards are untouched",
+    "Persisted deletion includes nested content and attachments",
+    "Focus can continue without referencing the removed task",
+    "Repeated stale deletion is harmless",
+    "Phone dialog has rounded corners and no bottom-sheet handle",
+    "Backdrop reserves horizontal space on both sides",
+    "No JavaScript errors"
+  ],
+  "scope": "JSDOM persistence, failure and CSS checks; physical phone rendering unverified."
+}
