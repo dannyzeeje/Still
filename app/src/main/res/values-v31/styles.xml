@@ -1,0 +1,1 @@
+<resources><style name="AppTheme" parent="BaseAppTheme"><item name="android:windowSplashScreenAnimatedIcon">@drawable/startup_placeholder</item><item name="android:windowSplashScreenBackground">@color/background</item><item name="android:windowSplashScreenAnimationDuration">0</item></style></resources>
